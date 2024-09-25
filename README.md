@@ -3,6 +3,15 @@
 
 **A&G Social** is a social network for programmers, designed to connect developers, share knowledge, and collaborate on projects. Users create profiles to showcase their skills, projects, and coding achievements. The platform offers a feed with interesting content, Q&A's, and technical questions. Programmers can communicate with others with direct messaging.
 
+<details>
+  <summary>Table of Contents</summary>
+
+  1. [Demo](#demo)
+  2. [Built With](#built-with)
+  3. [Getting Started](#getting-started)
+  4. [Screenshots](#screenshots)
+  5. [License](#license)
+</details>
 
 ## Demo
 
@@ -54,7 +63,7 @@ npm install
     VITE_APPID=
     VITE_MEASUREMENTID=
 ```
-### Step 5. Run the project locally
+### Step 2. Run the project locally
 ```
 npm run dev
 ```
