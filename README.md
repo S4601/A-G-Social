@@ -1,38 +1,115 @@
-# create-svelte
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+# A&G Social
 
-## Creating a project
+**A&G Social** is a social network for programmers, designed to connect developers, share knowledge, and collaborate on projects. Users create profiles to showcase their skills, projects, and coding achievements. The platform offers a feed with interesting content, Q&A's, and technical questions. Programmers can communicate with others with direct messaging.
 
-If you're seeing this, you've probably already done this step. Congrats!
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Demo
 
-# create a new project in my-app
-npm create svelte@latest my-app
+&nbsp;
+
+[View Demo](https://a-g-social.vercel.app/)
+
+&nbsp;
+
+
+## Built With
+
+![SvelteKit+Firebase]
+![Bootstrap]
+
+
+
+[SvelteKit+Firebase]: SvelteKit+FireBase.png
+[Bootstrap]: BootstrapImg.png
+
+## Getting Started
+
+### Step 1. Get the source code and install dependencies
+
+#### Clone this repository
+
+```
+https://github.com/S4601/A-G-Social.git
 ```
 
-## Developing
+#### Install dependencies.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+```
+npm install
+```
 
-```bash
+#### Create a Firebase project and set it up
+
+- Create Firebase project
+- Add `.env`(environment file) file to the main directory of this project
+- Add the Firebase project configuration variables to the `.env` file with the corresponding variables names:
+
+```
+    VITE_APIKEY=
+    VITE_AUTHDOMAIN=
+    VITE_PROJECTID=
+    VITE_STORAGEBUCKET=
+    VITE_MESSAGINGSENDERID=
+    VITE_APPID=
+    VITE_MEASUREMENTID=
+```
+### Step 5. Run the project locally
+```
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
+This will start the development server and open the app in a new browser tab.
+
+The page will reload when you make changes.
 
 ## Building
 
 To create a production version of your app:
 
-```bash
+```
 npm run build
 ```
 
 You can preview the production build with `npm run preview`.
+## Screenshots
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+**Login page**
+![LoginPage]
+
+**Register page**
+![RegisterPage]
+
+**Forgot password popup**
+![ForgotPassword]
+
+**Main page**
+![MainPage]
+
+**Add comment popup**
+![AddComment]
+
+**Profile page**
+![ProfilePage]
+
+**Chat page**
+![ChatPage]
+
+
+[LoginPage]: LoginPage.png
+
+[RegisterPage]: RegisterPage.png
+
+[ForgotPassword]: ForgotPassword.png
+
+[MainPage]: MainPage.png
+
+[AddComment]: AddComment.png
+
+[ProfilePage]: ProfilePage.png
+
+[ChatPage]: ChatPage.png
+## License
+
+Distributed under the MIT License. See [LICENSE.txt](https://github.com/S4601/A-G-Social/blob/4139e5e69ba027ef9704d3554c4c6a4220c19b96/LICENSE) for more information.
+
+
